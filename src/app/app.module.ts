@@ -16,7 +16,7 @@ import { from } from 'rxjs/observable/from';
 const appRoutes: Routes =[
   { path:'products', component: ProductListComponent },
   { path: 'products/:id', component: ProductPageComponent },
-  { path: '',redirectTo:'produts',pathMatch:'full' }
+  { path: '', redirectTo:'products', pathMatch:'full' }
 ];
 
 @NgModule({
